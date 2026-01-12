@@ -7,8 +7,8 @@ const startServer = () => {
 
   try {
     app.listen(PORT, () => {
-      logger.warn("test");
-      logger.error("trstassd.......");
+      // logger.warn("test");
+      // logger.error("trstassd.......");
       logger.info(`Listening on port ${PORT}`);
     });
   } catch (error) {
